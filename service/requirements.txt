@@ -1,0 +1,4 @@
+watchdog
+pandas
+motor
+pymongo
