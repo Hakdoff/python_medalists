@@ -13,7 +13,7 @@ ITEMS_PER_PAGE = 10
 UPLOAD_DIR = "../storage/app/medalists/"
 
 client = AsyncIOMotorClient("mongodb://localhost:27017") 
-db = client["medalist_database1"]
+db = client["medalist_database"]
 
 @app.post("/upload")
 async def upload_file(file: UploadFile = File(...)):
